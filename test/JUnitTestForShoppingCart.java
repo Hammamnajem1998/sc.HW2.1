@@ -78,6 +78,7 @@ public class JUnitTestForShoppingCart {
          int expCount =2;
          ShoppingCart sc =new ShoppingCart ();
          product p=new product ("java Book " ,127 );
+         //this  what happen when play with the master 
          sc.products.add(p);
          p=new product ("eb design Book " ,100);
          sc.products.add(p);
