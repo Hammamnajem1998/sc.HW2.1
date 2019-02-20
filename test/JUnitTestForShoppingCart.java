@@ -73,7 +73,7 @@ public class JUnitTestForShoppingCart {
      public void req3()
      {
          double actPrice=227;
-         int actCount=0;
+         int actCount;
          double expPrice=0;
          int expCount =2;
          ShoppingCart sc =new ShoppingCart ();
