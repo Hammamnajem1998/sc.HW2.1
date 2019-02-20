@@ -79,7 +79,7 @@ public class JUnitTestForShoppingCart {
          ShoppingCart sc =new ShoppingCart ();
          product p=new product ("java Book " ,127 );
          sc.products.add(p);
-         p=new product ("eb designn Book " ,100);
+         p=new product ("eb design Book " ,100);
          sc.products.add(p);
             for (int i=0;i<sc.products.size();i++)
          {
